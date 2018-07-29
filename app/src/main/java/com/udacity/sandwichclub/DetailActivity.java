@@ -79,7 +79,7 @@ public class DetailActivity extends AppCompatActivity {
     private void populateUI(Sandwich sandwich) {
 
         if(sandwich.getAlsoKnownAs().isEmpty()){
-            mOtherNames.setText("No other names found");
+            mOtherNames.setText("No other names");
         }else{
 
             String otherNames="";
